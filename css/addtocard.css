@@ -1,0 +1,282 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+    /* color: white; */
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+    width: 100vw;
+    scroll-behavior: smooth;
+}
+.header{
+    margin: 0px;
+    padding: 0px;
+    height: 45px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: yellowgreen;
+    /* justify-content: center; */
+    color: white;
+    padding-left: 50px;
+}
+.mainheader{
+    background-color: yellowgreen;
+    /* width: 650px; */
+}
+.mainheader h1{
+    background-color: yellowgreen;
+    width: 20%;
+    display: flex;
+     
+}
+.menu{
+    height: 100%;
+    /* width: 80%; */
+    background-color: yellowgreen;
+
+}
+.menu .submenu{
+    /* width: 100%; */
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    gap: 30px;
+    padding-left: 180px;
+    background-color: yellowgreen;
+    height: 100%;
+    font-size: 33px;
+    
+
+}
+.menu ul li{
+    position: relative;
+    height: 100%;
+    background-color: yellowgreen;
+    /* overflow-x: hidden; */
+}
+.menu ul li i{
+    position: absolute;
+    top: 20px;
+    height: 6px;
+    display: inline-block;
+    margin-bottom: 300px;
+}
+/* .menu ul li i:hover{
+    background-color: yellowgreen;
+    color: yellowgreen;
+} */
+.subul{
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    margin: 0px;
+    padding: 0px;
+    background-color: yellowgreen;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    display: none;
+    z-index: 12;
+    /* padding: 0px 20px; */
+}
+#menu:hover > ul{
+    display: block;
+}
+#latest:hover > ul{
+    display: block;
+}
+#offers:hover > ul{
+    display: block;
+}
+#brands:hover > ul{
+    display: block;
+}
+.subul li{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-color:yellowgreen;
+    padding: 0px 20px;
+    border-bottom: 1px solid black;
+    border-left: 5px solid yellowgreen;
+   
+}
+.subul li:hover{
+    border-left: 5px solid yellowgreen;
+}
+.subul li:hover > a{
+    background-color: white;
+    color: yellowgreen;
+}
+.subul li a{
+    display: block;
+    background-color: red;
+    padding: 10px 0px;
+}
+
+
+.menu ul a{
+    font-size: 30px;
+    color: white;
+    background-color: yellowgreen;
+
+}
+.menu ul a span{
+    background-color: yellowgreen;
+}
+span i{
+    background-color: yellowgreen;
+    font-size: 14px;
+}
+.submenu li:hover{
+background-color: white;
+color: yellowgreen;
+}
+.submenu li a:hover{
+    background-color: white;
+    color: yellowgreen;
+    }
+.menu .submenu li a{
+    height: 100%;
+    display: inline-block;
+    padding-top: 5px;
+}
+.submenu li a span{
+    /* display: block; */
+    height: 60%;
+}
+.submenu li a span i{
+    /* display: inline-block; */
+    height: 27%;
+}
+.submenu li:hover > a span{
+    background-color: white;
+    color: yellowgreen;
+    }
+    .submenu li:hover > a span i{
+        background-color: white;
+        color: yellowgreen;
+        }
+
+        .mainheader h1 img{
+            width: 36px;
+            height: 33px;
+            margin-bottom: -4px;
+        }
+
+       
+
+
+
+
+
+        .details_container{
+            margin: 30px;
+            display: flex;
+            gap: 40px;
+        }
+
+    
+
+      
+
+
+
+
+
+        .card_details{
+            padding: 14px;
+            border: 2px solid yellowgreen;
+            margin-left: auto;
+            margin-right: 50px;
+            width: 340px;
+            height: 310px;
+            
+        }
+
+        .username , .age , .number ,.gmail{
+            font-size: 23px;
+        }
+        .card_details div{
+            padding: 8px;
+        }
+
+        .container_one_1{
+            /* position: absolute; */
+            /* display: flex; */
+            width: 340px;
+            height: 410px;
+            border: 2px solid yellowgreen;
+            /* padding: 15px; */
+
+        }
+        .container_one_1 .img_card{
+            width: 100%;
+            height: 53%;
+        }
+        
+        .container_one_1 .img_card img{
+            width: 100%;
+            height: 100%;
+            background-color: red;
+        }
+        .container_one_1 .details_card{
+            padding: 10px;
+            text-align: center;
+        }
+        
+        .details_card h2{
+            padding: 5px 0px;
+            font-size: 22px;
+        }
+        .details_card p{
+            font-size: 18px;
+            padding: 5px 0px;
+        }
+        .details_card span{
+            padding: 7px 0px;
+            font-size: 22px;
+        }
+        .container_one{
+            width: 700px;
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+            position: relative;
+        }
+        .details_card div{
+            margin-top:5px;
+        }
+        .details_card div a{
+            display: inline-block;
+            padding: 4px;
+            color: white;
+            font-size: 24px;
+            background-color: yellowgreen;
+            border: 2px solid yellowgreen;
+            padding: 4px 0px;
+        }
+
+
+        
+#updateform{
+    padding: 4px;
+    background-color: yellowgreen;
+    width: 300px;
+    margin: 200px 0px 0px 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#updateform div{
+   
+    padding: 5px;
+}

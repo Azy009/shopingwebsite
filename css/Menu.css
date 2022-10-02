@@ -1,0 +1,377 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+    /* color: white; */
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+    width: 100vw;
+    scroll-behavior: smooth;
+}
+.header{
+    margin: 0px;
+    padding: 0px;
+    height: 46px;
+    display: flex;
+    align-items: center;
+    background-color: yellowgreen;
+    /* justify-content: center; */
+    color: white;
+    padding-left: 50px;
+}
+.mainheader{
+    background-color: yellowgreen;
+}
+.mainheader h1{
+    background-color: yellowgreen;
+}
+.menu{
+    height: 100%;
+    background-color: yellowgreen;
+
+}
+.menu .submenu{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    gap: 30px;
+    padding-left: 390px;
+    background-color: yellowgreen;
+    height: 100%;
+    
+
+}
+.menu ul li{
+    position: relative;
+    height: 100%;
+    background-color: yellowgreen;
+}
+.subul{
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    margin: 0px;
+    padding: 0px;
+    background-color: yellowgreen;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    display: none;
+    z-index: 12;
+    /* padding: 0px 20px; */
+}
+#menu:hover > ul{
+    display: block;
+}
+#latest:hover > ul{
+    display: block;
+}
+#offers:hover > ul{
+    display: block;
+}
+#brands:hover > ul{
+    display: block;
+}
+.subul li{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-color:yellowgreen;
+    padding: 0px 20px;
+    border-bottom: 1px solid black;
+    border-left: 5px solid yellowgreen;
+   
+}
+.subul li:hover{
+    border-left: 5px solid yellowgreen;
+}
+.subul li:hover > a{
+    background-color: white;
+    color: yellowgreen;
+}
+.subul li a{
+    display: block;
+    background-color: red;
+    padding: 10px 0px;
+}
+
+.menu ul li i{
+    position: absolute;
+    top: 20px;
+    height: 6px;
+    display: inline-block;
+    margin-bottom: 300px;
+}
+.menu ul a{
+    font-size: 28px;
+    color: white;
+    background-color: yellowgreen;
+
+}
+span{
+    background-color: yellowgreen;
+}
+span i{
+    background-color: yellowgreen;
+    font-size: 14px;
+}
+.submenu li:hover{
+background-color: white;
+color: yellowgreen;
+}
+.submenu li a:hover{
+    background-color: white;
+    color: yellowgreen;
+    }
+.menu .submenu li a{
+    height: 100%;
+    display: inline-block;
+    padding-top: 5px;
+}
+.submenu li a span{
+    /* display: block; */
+    height: 60%;
+}
+.submenu li a span i{
+    /* display: inline-block; */
+    height: 27%;
+}
+.submenu li:hover > a span{
+    background-color: white;
+    color: yellowgreen;
+    }
+    .submenu li:hover > a span i{
+        background-color: white;
+        color: yellowgreen;
+        }
+
+
+
+        .search{
+            height: 90px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        #search{
+            width: 900px;
+            height: 50px;
+            border: 2px solid yellowgreen;
+            border-radius: 27px;
+            font-size: 33px;
+        }
+        .btn{
+            border: none;
+            font-size: 30px;
+            position: relative;
+            left: -44px;
+            color: yellowgreen;
+            background-color: white;
+        }
+
+
+
+        .maincontainer{
+            width: 230px;
+            height: 375px;
+            font-size: 21px;
+            background-color: #ddd;
+            margin-left: 13px;
+        }
+        .maincontainer:hover{
+            background-color: yellowgreen;
+        }
+        .maincontainer img{
+            width: 230px;
+            height: 160px;
+        }
+        #clickmee{
+            cursor: pointer;
+        }
+
+        .shophere{
+            text-align: center;
+            text-decoration: underline;
+            font-size: 36px;
+            margin-bottom: 7px;
+        }
+
+        .mainmenu{
+            display: flex;
+            gap: 11px;
+            flex-wrap: wrap;
+            margin-left: 0;
+        }
+        .container{
+            text-align: center;
+        }
+        .price,.title,.company{
+            margin: 10px;
+        }
+
+.container_btn{
+    display: inline-block;
+    padding: 4px;
+    color: white;
+    font-size: 24px;
+    background-color: yellowgreen;
+    border: 2px solid yellowgreen;
+    padding: 4px 0px;
+}
+
+
+
+.company a{
+    display: inline-block;
+    padding: 4px;
+    color: white;
+    font-size: 24px;
+    background-color: yellowgreen;
+    border: 2px solid yellowgreen;
+    padding: 4px 0px;
+}
+        .footer{
+            width: 97vw;
+            margin-left: 8px;
+            margin-top: 8px;
+            height: 310px;
+            background-color: yellowgreen;
+            color: white;
+            display: flex;
+            gap: 180px;
+            /* align-items: center; */
+            justify-content: center;
+            padding-top: 10px;
+        }
+        .brandss h1,.aboutuss h1, .product h1,.contactus h1{
+        font-size: 26px;
+        text-decoration: underline;
+        }
+        .brandss{
+            display: flex;
+            flex-direction: column;
+            gap: 7px;
+        }
+        .brandss h3{
+            padding-left: 20px;
+            font-size: 22px;
+           
+        }
+        .aboutuss {
+            display: flex;
+            flex-direction: column;
+            gap: 7px;
+        }
+        .aboutuss h3{
+            font-size: 22px;
+        }
+        .product{
+            display: flex;
+            flex-direction: column;
+            gap: 7px;
+        }
+        .product h3{
+            font-size: 22px;
+            padding-left: 20px;
+        }
+        .contactus{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        .contactus h3{
+            font-size: 22px;
+            padding-left: 20px;
+        }
+        
+        .mainfooter{
+            width: 97vw;
+            margin-left: 8px;
+            margin-top: 8px;
+            height: 310px;
+            background-color: yellowgreen;
+            color: white; 
+            /* display: flex;
+            flex-direction: column;   */
+        }
+        .mainfooterr{
+            border-top: 2px solid white;
+            background-color: yellowgreen;
+            display: flex;
+            width: 97.6vw;
+            margin-left: 0px;
+        }
+         .icon{
+            margin-right: auto;
+            padding-left: 25px;
+            display: flex;
+            gap: 12px;
+            align-items: center;
+            justify-content: center;
+        }
+        .icon div i{
+            font-size: 24px;
+        }
+        .mainfooterr h2{
+            padding-right: 40px;
+        } 
+        .closeicon{
+            width: 23px;
+            height: 23px;
+            border-radius: 50px;
+            background-color: red;
+            text-align: center;
+        margin-left: 564px;
+        margin-top: -12px;
+        
+        }  
+        .contactbox{
+            position: absolute;
+            top: 2100px;
+            /* display: none; */
+            left: 0%;
+            width: 45vw;
+            height: 45vh;
+            background-color: rgb(183, 176, 176);
+            border-radius: 8px;
+            z-index: 22;
+            margin-left: 350px;
+        }
+        .formm{
+            padding-right: 100px;
+        }
+        .formm div{
+            padding-left: 90px;
+        }
+        .contactbox form div{
+            padding-bottom: 8px;
+        }
+        .contactbox form div input{
+         width: 400px;
+         height: 32px;
+         
+        }
+        .contactboxx{
+            cursor: pointer;
+        }
+        
+                  
+.companys{
+    display: flex;
+    gap: 6px;
+    margin-top: 6px;
+}
+#branddd{
+    text-align: center;
+    text-decoration: underline;
+    color: yellowgreen;
+    font-size: 38px;
+}

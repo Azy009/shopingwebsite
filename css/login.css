@@ -1,0 +1,185 @@
+.login{
+    margin: 60px 0 0 330px;
+    display: flex;
+    gap: 5px;
+    background-color: yellowgreen;
+    width: 700px;
+    height: 620px;
+}
+.two > h1{
+    text-decoration: underline;
+    /* text-align: center; */
+    margin-left: 110px;
+    margin-bottom: 10px;
+}
+.login form div{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center;
+    justify-content: center; */
+    gap: 20px;
+}
+.login form div input{
+    width: 350px;
+    height: 30px;
+    border-radius: 14px;
+    border: 1px solid black;
+    margin-bottom: 15px;
+}
+#submit{
+    width: 100px;
+    height: 31px;
+    font-size: 23px;
+    font-weight: bolder;
+    border-radius: 16px;
+    border: 1px solid black;
+    margin-left: 110px;
+    margin-top: -5px;
+
+}
+.one{
+    width: 340px;
+    height: 300px;
+}
+.one img{
+    width: 100%;
+    height: 100%;
+}
+#branddd{
+    text-align: center;
+    text-decoration: underline;
+    color: yellowgreen;
+    font-size: 38px;
+}
+.second{
+    margin-bottom: 60px;
+}
+.contactbox{
+    position: absolute;
+    top: 500px;
+    /* display: none; */
+    left: 0%;
+    width: 45vw;
+    height: 45vh;
+    background-color: rgb(183, 176, 176);
+    border-radius: 8px;
+    z-index: 22;
+    margin-left: 350px;
+}
+.formm{
+    padding-right: 100px;
+}
+.formm div{
+    padding-left: 90px;
+}
+.contactbox form div{
+    padding-bottom: 8px;
+}
+.contactbox form div input{
+ width: 400px;
+ height: 32px;
+ 
+}
+.contactboxx{
+    cursor: pointer;
+}
+
+
+.footer{
+    width: 97vw;
+    margin-left: 8px;
+    margin-top: 8px;
+    height: 310px;
+    background-color: yellowgreen;
+    color: white;
+    display: flex;
+    gap: 180px;
+    /* align-items: center; */
+    justify-content: center;
+    padding-top: 10px;
+}
+.brandss h1,.aboutuss h1, .product h1,.contactus h1{
+font-size: 26px;
+text-decoration: underline;
+}
+.brandss{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+.brandss h3{
+    padding-left: 20px;
+    font-size: 22px;
+   
+}
+.aboutuss {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+.aboutuss h3{
+    font-size: 22px;
+}
+.product{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+.product h3{
+    font-size: 22px;
+    padding-left: 20px;
+}
+.contactus{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.contactus h3{
+    font-size: 22px;
+    padding-left: 20px;
+}
+
+.mainfooter{
+    width: 97vw;
+    margin-left: 8px;
+    margin-top: 8px;
+    height: 310px;
+    background-color: yellowgreen;
+    color: white; 
+    /* display: flex;
+    flex-direction: column;   */
+}
+.mainfooterr{
+    border-top: 2px solid white;
+    background-color: yellowgreen;
+    display: flex;
+    width: 97.6vw;
+    margin-left: 0px;
+}
+ .icon{
+    margin-right: auto;
+    padding-left: 25px;
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    justify-content: center;
+}
+.icon div i{
+    font-size: 24px;
+}
+.mainfooterr h2{
+    padding-right: 40px;
+} 
+.closeicon{
+    width: 23px;
+    height: 23px;
+    border-radius: 50px;
+    background-color: red;
+    text-align: center;
+margin-left: 564px;
+margin-top: -12px;
+cursor: pointer;
+}             
+.clickmee{
+    cursor: pointer;
+}

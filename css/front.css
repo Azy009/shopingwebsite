@@ -1,0 +1,436 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+    /* color: white; */
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family:'Times New Roman', Times, serif;
+    overflow-x: hidden;
+    width: 100vw;
+    scroll-behavior: smooth;
+}
+.header{
+    margin: 0px;
+    padding: 0px;
+    height: 45px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: yellowgreen;
+    /* justify-content: center; */
+    color: white;
+    padding-left: 50px;
+}
+.mainheader{
+    background-color: yellowgreen;
+    /* width: 650px; */
+}
+.mainheader h1{
+    background-color: yellowgreen;
+    width: 20%;
+    display: flex;
+     
+}
+.menu{
+    height: 100%;
+    /* width: 80%; */
+    background-color: yellowgreen;
+
+}
+.menu .submenu{
+    /* width: 100%; */
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    gap: 30px;
+    padding-left: 180px;
+    background-color: yellowgreen;
+    height: 100%;
+    font-size: 33px;
+    
+
+}
+.menu ul li{
+    position: relative;
+    height: 100%;
+    background-color: yellowgreen;
+    /* overflow-x: hidden; */
+}
+.menu ul li i{
+    position: absolute;
+    top: 20px;
+    height: 6px;
+    display: inline-block;
+    margin-bottom: 300px;
+}
+/* .menu ul li i:hover{
+    background-color: yellowgreen;
+    color: yellowgreen;
+} */
+.subul{
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    margin: 0px;
+    padding: 0px;
+    background-color: yellowgreen;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    display: none;
+    z-index: 12;
+    /* padding: 0px 20px; */
+}
+#menu:hover > ul{
+    display: block;
+}
+#latest:hover > ul{
+    display: block;
+}
+#offers:hover > ul{
+    display: block;
+}
+#brands:hover > ul{
+    display: block;
+}
+.subul li{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-color:yellowgreen;
+    padding: 0px 20px;
+    border-bottom: 1px solid black;
+    border-left: 5px solid yellowgreen;
+   
+}
+.subul li:hover{
+    border-left: 5px solid yellowgreen;
+}
+.subul li:hover > a{
+    background-color: white;
+    color: yellowgreen;
+}
+.subul li a{
+    display: block;
+    background-color: red;
+    padding: 10px 0px;
+}
+
+
+.menu ul a{
+    font-size: 30px;
+    color: white;
+    background-color: yellowgreen;
+
+}
+.menu ul a span{
+    background-color: yellowgreen;
+}
+span i{
+    background-color: yellowgreen;
+    font-size: 14px;
+}
+.submenu li:hover{
+background-color: white;
+color: yellowgreen;
+}
+.submenu li a:hover{
+    background-color: white;
+    color: yellowgreen;
+    }
+.menu .submenu li a{
+    height: 100%;
+    display: inline-block;
+    padding-top: 5px;
+}
+.submenu li a span{
+    /* display: block; */
+    height: 60%;
+}
+.submenu li a span i{
+    /* display: inline-block; */
+    height: 27%;
+}
+.submenu li:hover > a span{
+    background-color: white;
+    color: yellowgreen;
+    }
+    .submenu li:hover > a span i{
+        background-color: white;
+        color: yellowgreen;
+        }
+
+
+
+        /* search section start here */
+
+        .search{
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        #search{
+            width: 500px;
+            height: 38px;
+            border: 2px solid yellowgreen;
+            border-radius: 18px;
+            font-size: 28px;
+        }
+        .btn{
+            border: none;
+            font-size: 25px;
+            position: relative;
+            left: -40px;
+            color: yellowgreen;
+        }
+       
+           /* search section end here */
+
+
+              /* imgslider section start here */
+              .slider-img{
+                  width: 99.7vw;
+                  height: 400px;
+                  margin-top: 4px;
+              }
+              .laders{
+                  /* width: 99.9vw; */
+                  height: 400px;
+                  margin-left: 3px;
+              }
+              .laders img{
+                  width: 100%;
+                  height: 400px;
+              }
+              /* imgslider section end here */
+
+              /* latest product section start here */
+              
+.latesttitle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+    font-weight: bolder;
+    color: yellowgreen;
+    text-decoration: underline;
+    margin-top: 7px;
+margin-bottom: 5px;
+}
+
+.latest-img{
+    width: 98vw;
+    margin-left: 7px;
+    height: 250px;
+    
+}
+.mainheader h1 img{
+    width: 36px;
+    height: 33px;
+    margin-bottom: -4px;
+
+}
+.lead{
+    width: 200px;
+    height: 310px;
+    font-size: 21px;
+    background-color: #ddd;
+    margin-left: 13px;
+    text-align: center;
+}
+.company a{
+    margin-top: 7px;
+    display: inline-block;
+    padding: 4px;
+    color: white;
+    font-size: 24px;
+    background-color: yellowgreen;
+    border: 2px solid yellowgreen;
+    padding: 4px 0px;
+}
+.lead:hover{
+    background-color: yellowgreen;
+}
+.lead img{
+    width: 200px;
+    height: 160px;
+}
+
+#clickmee{
+    cursor: pointer;
+}
+
+
+.offershere{
+    display: flex;
+    gap: 20px;
+    height: 330px;
+    margin-top: 5px;
+}
+.offershere div{
+    width: 400px;
+    height: 98%;
+}
+.offershere div img{
+    width: 100%;
+    height: 100%;
+}
+.heading{
+    margin-top: 90px;
+    text-align: center;
+    text-decoration: underline;
+    color: yellowgreen;
+    font-size: 40px;
+}
+
+.companys{
+    display: flex;
+    gap: 6px;
+    margin-top: 6px;
+}
+#branddd{
+    text-align: center;
+    text-decoration: underline;
+    color: yellowgreen;
+    font-size: 38px;
+}
+.second{
+    margin-bottom: 60px;
+}
+.contactbox{
+    position: absolute;
+    top: 1700px;
+    /* display: none; */
+    left: 0%;
+    width: 45vw;
+    height: 45vh;
+    background-color: rgb(183, 176, 176);
+    border-radius: 8px;
+    z-index: 22;
+    margin-left: 350px;
+}
+.formm{
+    padding-right: 100px;
+}
+.formm div{
+    padding-left: 90px;
+}
+.contactbox form div{
+    padding-bottom: 8px;
+}
+.contactbox form div input{
+ width: 400px;
+ height: 32px;
+ 
+}
+.contactboxx{
+    cursor: pointer;
+}
+
+
+.footer{
+    width: 97vw;
+    margin-left: 8px;
+    margin-top: 8px;
+    height: 310px;
+    background-color: yellowgreen;
+    color: white;
+    display: flex;
+    gap: 180px;
+    /* align-items: center; */
+    justify-content: center;
+    padding-top: 10px;
+}
+.brandss h1,.aboutuss h1, .product h1,.contactus h1{
+font-size: 26px;
+text-decoration: underline;
+}
+.brandss{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+.brandss h3{
+    padding-left: 20px;
+    font-size: 22px;
+   
+}
+.aboutuss {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+.aboutuss h3{
+    font-size: 22px;
+}
+.product{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+.product h3{
+    font-size: 22px;
+    padding-left: 20px;
+}
+.contactus{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.contactus h3{
+    font-size: 22px;
+    padding-left: 20px;
+}
+
+.mainfooter{
+    width: 97vw;
+    margin-left: 8px;
+    margin-top: 8px;
+    height: 310px;
+    background-color: yellowgreen;
+    color: white; 
+    /* display: flex;
+    flex-direction: column;   */
+}
+.mainfooterr{
+    border-top: 2px solid white;
+    background-color: yellowgreen;
+    display: flex;
+    width: 97.6vw;
+    margin-left: 0px;
+}
+ .icon{
+    margin-right: auto;
+    padding-left: 25px;
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    justify-content: center;
+}
+.icon div i{
+    font-size: 24px;
+}
+.mainfooterr h2{
+    padding-right: 40px;
+} 
+.closeicon{
+    width: 23px;
+    height: 23px;
+    border-radius: 50px;
+    background-color: red;
+    text-align: center;
+margin-left: 564px;
+margin-top: -12px;
+cursor: pointer;
+}             
+.clickmee{
+    cursor: pointer;
+}
